@@ -41,7 +41,7 @@ grid-template-columns: 33% auto auto auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    padding-top: 100px;
+    padding-top: 50px;
     color: rgb(252, 252, 252);
     font-size: x-large;
     font-family: 'Lucida Bright', sans-serif;
@@ -175,6 +175,15 @@ font-weight: bolder;
 
     height: 300px;
     width: 450px;
+
+
+}
+
+#projimg2 {
+
+
+    height: 300px;
+    width: 350px;
 
 
 }

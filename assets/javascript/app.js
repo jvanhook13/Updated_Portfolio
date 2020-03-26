@@ -9,7 +9,7 @@ return true;
 }
 function changeImageBack1()
 {
- document.images["midButton1"].src = "http://placekitten.com/300/300";
+ document.images["midButton1"].src = "assets/images/hiker.jpg";
  return true;
 }
 
@@ -20,7 +20,7 @@ return true;
 }
 function changeImageBack2()
 {
- document.images["midButton2"].src = "http://placekitten.com/300/300";
+ document.images["midButton2"].src = "assets/images/gif-placeholder.gif";
  return true;
 }
 
@@ -31,6 +31,6 @@ return true;
 }
 function changeImageBack3()
 {
- document.images["midButton3"].src = "http://placekitten.com/300/300";
+ document.images["midButton3"].src = "assets/images/space.jpg";
  return true;
 }
