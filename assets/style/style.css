@@ -14,7 +14,7 @@ grid-template-columns: 33% auto auto auto;
  #background {
     position: absolute;
     overflow: hidden;
-    background: url("../images/space.jpg") repeat-x ;
+    background: url("../images/utility.jpg")  ;
     height: 100vh;
     width: 100vw ;
     animation: slide 60s linear infinite;
@@ -24,9 +24,9 @@ grid-template-columns: 33% auto auto auto;
 
 }
 
-/*
 
-@keyframes slide{
+
+/* @keyframes slide{
     0%{
       transform: translate3d(0, 0, 0);
     }
@@ -41,9 +41,11 @@ grid-template-columns: 33% auto auto auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    padding-top: 150px;
-    color: whitesmoke;
-
+    padding-top: 100px;
+    color: rgb(252, 252, 252);
+    font-size: x-large;
+    font-family: 'Lucida Bright', sans-serif;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
 
 
 }
@@ -104,6 +106,9 @@ display: grid;
 
     
     grid-area: 2 / 1 / 3 / 2 ;
+    font-family: 'Lucida Bright', sans-serif;
+    font-size: larger;
+    color: whitesmoke;
 
 }
 
@@ -126,7 +131,7 @@ display: grid;
 #teal {
 
     display: grid;
-    padding: 60px;
+    padding: 20px;
  
 }
 
@@ -134,7 +139,7 @@ display: grid;
 
     grid-area: proj1;
     grid-area: 2 / 2 / 3 / 3 ;
-    padding-right: 100px;
+    padding-right: 10px;
 
 }
 
@@ -142,8 +147,8 @@ display: grid;
 
     grid-area: proj2;
     grid-area: 2 / 3 / 3 / 4 ;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
 
 }
 
@@ -152,7 +157,24 @@ display: grid;
 
     grid-area: proj3;
     grid-area: 2 / 4 / 3 / 5 ;
-    padding-left: 100px;
+    padding-left: 10px;
+
+
+}
+
+LH {
+
+font-weight: bolder;
+
+
+
+}
+
+#projimg3 {
+
+
+    height: 300px;
+    width: 450px;
 
 
 }
