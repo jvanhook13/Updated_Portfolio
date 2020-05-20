@@ -9,7 +9,7 @@ return true;
 }
 function changeImageBack1()
 {
- document.images["midButton1"].src = "assets/images/hiker.jpg";
+ document.images["midButton1"].src = "assets/images/gif-placeholder.gif";
  return true;
 }
 
@@ -31,6 +31,6 @@ return true;
 }
 function changeImageBack3()
 {
- document.images["midButton3"].src = "assets/images/space.jpg";
+ document.images["midButton3"].src = "assets/images/gif-placeholder.gif";
  return true;
 }
