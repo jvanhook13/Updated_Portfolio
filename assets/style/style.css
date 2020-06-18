@@ -13,7 +13,7 @@ grid-template-columns: 33% auto auto auto;
 
  #background {
     position: absolute;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: url("../images/utility.jpg")  ;
     height: 100vh;
     width: 100vw ;
@@ -173,8 +173,8 @@ font-weight: bolder;
 #projimg3 {
 
 
-    height: 300px;
-    width: 450px;
+    height: 200px;
+    width: 350px;
 
 
 }
@@ -183,7 +183,7 @@ font-weight: bolder;
 
 
     height: 300px;
-    width: 350px;
+    width: 450px;
 
 
 }

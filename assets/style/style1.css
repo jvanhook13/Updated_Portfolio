@@ -1,0 +1,111 @@
+#picofme {
+    display: block;
+    float: left ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    grid-area: 1 / 1 / 2 / 2 ;
+    height: 425px;
+    width: 425px;
+    z-index: 2;
+    padding: 60px;
+
+
+
+}
+
+#background {
+    /* position: absolute; */
+    /* overflow: hidden; */
+    background: url("../images/utility2.jpg")  ;
+    background-size: cover;
+    /* height: 100vh;
+    width: 100vw ; */
+    z-index: 0;
+
+
+
+}
+
+#me {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 50px;
+    color: rgb(252, 252, 252);
+    font-size: x-large;
+    font-family: 'Lucida Bright', sans-serif;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+
+
+}
+
+
+#green2 {
+
+    float: left ;
+    padding-left: 5%;
+    font-family: 'Lucida Bright', sans-serif;
+    font-size: larger;
+    color: whitesmoke;
+
+}
+
+
+
+#leftTeal {
+
+    float: left ;
+    padding-left: 5%;
+    max-width: 40%;
+
+}
+
+#middleTeal {
+
+    float: left ;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 40%;
+
+}
+
+#rightTeal {
+
+    padding-left: 10px;
+    float: left ;
+    max-width: 40%;
+
+}
+
+#projimg3 {
+
+
+    height: 200px;
+    width: 350px;
+
+
+}
+
+#projimg2 {
+
+
+    height: 300px;
+    width: 450px;
+
+
+}
+
+.repo {
+
+
+    color: rgb(252, 252, 252);
+
+
+
+
+}
